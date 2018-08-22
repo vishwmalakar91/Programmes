@@ -3,7 +3,7 @@ C using command line
 ----------------------------------
 1. install > MinGW libraries , https://sourceforge.net/projects/mingw/files/latest/download?source=files
 2. add path C:\MinGW\bin
-3  check if working in cmd line :g++ --version
+3.  check if working in cmd line :g++ --version
 4. create a .c file
 5. go to .c file directory and compile :  g++ hello.c -o hello.exe
 6. run exe : hello.exe
@@ -13,7 +13,7 @@ C++ using command line
 ----------------------------------
 1. install > MinGW libraries , https://sourceforge.net/projects/mingw/files/latest/download?source=files
 2. add path C:\MinGW\bin
-3  check if working in cmd line :g++ --version
+3.  check if working in cmd line :g++ --version
 4. create a .cpp file
 5. go to .cpp file directory and compile :  g++ hello.cpp -o hello.exe
 6. run exe : hello.exe
