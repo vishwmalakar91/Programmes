@@ -9,7 +9,7 @@ C using command line
 6. run exe : hello.exe
 
 
-CPP using command line
+C++ using command line
 ----------------------------------
 1. install > MinGW libraries , https://sourceforge.net/projects/mingw/files/latest/download?source=files
 2. add path C:\MinGW\bin
@@ -18,21 +18,15 @@ CPP using command line
 5. go to .cpp file directory and compile :  g++ hello.cpp -o hello.exe
 6. run exe : hello.exe
 
-C#
-http://scriptcs.net/
+C# using command line
+----------------------------------
+1. download adding form here :http://scriptcs.net/
 https://chocolatey.org/install#installing-chocolatey
-run cmd as admin
-@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None 
--ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).
-DownloadString('https://chocolatey.org/install.ps1'))" &&
-SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
-
-
-cinst scriptcs
-
-scriptcs -version
-
-https://www.microsoft.com/net/learn/get-started-with-dotnet-tutorial#windowscmd
+2. run cmd as admin
+3. run below command : @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient) DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+4. cinst scriptcs
+5. to check version use :scriptcs -version
+6. for .net tutorial : https://www.microsoft.com/net/learn/get-started-with-dotnet-tutorial#windowscmd
 
 
 JAVA using command line
