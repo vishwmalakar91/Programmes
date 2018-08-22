@@ -65,38 +65,38 @@ VB Script using command line
 JAVAScript using command line
 ----------------------------------
 
-1.install node js from   https://nodejs.org/en/download/
-2.check if working in cmd line node --version
-3.create a .js file
-4.go to .js file directory and run :  node hello.js
+1. install node js from   https://nodejs.org/en/download/
+2. check if working in cmd line node --version
+3. create a .js file
+4. go to .js file directory and run :  node hello.js
 
 
 Groovy Script using command line
 ----------------------------------
 
-1.install groovy binary or window installer from  http://groovy-lang.org/download.html
-2.add path C:\Program Files\groovy-3.0.0-alpha-3\bin
-3.check if working in cmd line groovy --version
-4.create a .groovy file
-5.go to .groovy file directory and run :  groovy hello.groovy
+1. install groovy binary or window installer from  http://groovy-lang.org/download.html
+2. add path C:\Program Files\groovy-3.0.0-alpha-3\bin
+3. check if working in cmd line groovy --version
+4. create a .groovy file
+5. go to .groovy file directory and run :  groovy hello.groovy
 
 php using command line
 ----------------------------------
 
-1.install php binary or window installer from  http://php.net/downloads.php
-2.add path C:\Program Files (x86)\php-7.2.8-nts
-3.check if working in cmd line php --version
-4.create a .phpfile
-5.go to .php file directory and run :  php hello.php
+1. install php binary or window installer from  http://php.net/downloads.php
+2. add path C:\Program Files (x86)\php-7.2.8-nts
+3. check if working in cmd line php --version
+4. create a .phpfile
+5. go to .php file directory and run :  php hello.php
 
 
 ruby on rails using command line
 ----------------------------------
 
-1.install php binary or window installer from  https://rubyinstaller.org/downloads/
-2.check if working in cmd line ruby --version
-3.create a .rb
-4.go to .rb file directory and run :  ruby hello.rb
+1. install php binary or window installer from  https://rubyinstaller.org/downloads/
+2. check if working in cmd line ruby --version
+3. create a .rb
+4. go to .rb file directory and run :  ruby hello.rb
 
 
 gem install rails
@@ -106,19 +106,19 @@ https://www.tutorialspoint.com/ruby-on-rails/rails-installation.htm
 perl using command line
 ----------------------------------
 
-1.install php binary or window installer from  http://strawberryperl.com/
-2.check if working in cmd line perl --version
-3.create a .pl
-4.go to .pl file directory and run :  perl hello.pl
+1. install php binary or window installer from  http://strawberryperl.com/
+2. check if working in cmd line perl --version
+3. create a .pl
+4. go to .pl file directory and run :  perl hello.pl
 
 
 google go using command line
 ----------------------------------
 
-1.download and install window installer from https://golang.org/dl/
-2.check if working in cmd line : go version
-3.create a .go
-4.go to .go file directory and run :  go run hello.go
+1. download and install window installer from https://golang.org/dl/
+2. check if working in cmd line : go version
+3. create a .go
+4. go to .go file directory and run :  go run hello.go
 
 
 
