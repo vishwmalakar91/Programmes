@@ -2,6 +2,16 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - MarutiDesire_v0",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "MarutiDesire_v0",
+            "args": ""
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - calc",
             "request": "launch",
             "cwd": "${workspaceFolder}",

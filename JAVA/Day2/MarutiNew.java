@@ -28,8 +28,12 @@ class MarutiDesire extends MarutiSwift {
     }
 }
 
-/*
- * class MarutiDZ extends MarutiDesire,MarutiSwift { public static void
- * main(String[] args) { MarutiDZ d= new MarutiDZ() ; d.engine();
- * System.out.println(d.name); } }
- */
+class MarutiNew extends MarutiDesire{
+
+  public static void main(String[] args)
+   { 
+       MarutiDZ d= new MarutiDZ() ; 
+       d.engine();
+        System.out.println(d.name);
+ }
+}
