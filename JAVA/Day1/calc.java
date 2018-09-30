@@ -32,8 +32,8 @@ calc c=new calc();
 c.add();
 c.addi(20,11);
 c.addr(20,12);//will not print
-int sum=c.add();
-//int sum=c.addr(20,13);
+//int sum=c.add();
+int sum=c.addr(20,13);
 System.out.println("return m :"+sum);
 sum=sum+100;
 System.out.println("after :"+sum);

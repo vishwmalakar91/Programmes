@@ -8,11 +8,8 @@ static String companyName="Amdocs";//non static
 public static void main(String[]args)
 {
 Emp e1=new Emp();
-
 Emp e2=new Emp();
-
 Emp e3=new Emp();
-
 Emp e4=new Emp();
 
 e1.EmpName="Sa";
@@ -27,12 +24,15 @@ e1.EmpId=1003;
 System.out.println(e1.EmpName); 
 System.out.println(e1.EmpId);
 System.out.println(e1.companyName);
-e4.companyName="Amdocs Global";
+System.out.println("-------------------");
 System.out.println(e2.EmpName); 
 System.out.println(e2.EmpId);
 System.out.println(e2.companyName);
-e4.companyName="Amdocs Global";
-
+System.out.println("-------------------");
+e3.companyName="Amdocs Global";
+System.out.println(e4.EmpName); 
+System.out.println(e4.EmpId);
+System.out.println(e4.companyName);
 
 }
 
