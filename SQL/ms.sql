@@ -20,9 +20,9 @@ insert into Employee values
  (10,"Prashant BEniwal","prashantb@amdocs.com",1);
  
  
-  update Employee 
-	Set Employee_Name="Prashant Beniwal"
-    where Employee_ID=10;
+update Employee 
+Set Employee_Name="Prashant Beniwal"
+where Employee_ID=10;
     
 create table Project
 (
@@ -44,6 +44,14 @@ PRIMARY KEY (Employee_ID)
 select * from Employee;
 select * from Project;
 
+select * from Employee where Employee_Name like '%pak%' ;
+select distinct Manager_ID from Employee;
+
+select distinct a.Manager_ID ,b.Employee_Name as Manager_Name ,b.Employee_Email as Manager_Email
+from Employee a,Employee b
+where a.Manager_ID = b.Employee_ID;
+
 -- Self Join
 select a.Employee_ID, a.Employee_Name ,a.Employee_Email,
-b.Employee_Name as Manager_Name ,b.Employee_Email as Manager_Email from Employee a,Employee b where a.Manager_ID=b.Employee_ID; 
+b.Employee_Name as Manager_Name ,b.Employee_Email as Manager_Email 
+from Employee a,Employee b where a.Manager_ID=b.Employee_ID; 
