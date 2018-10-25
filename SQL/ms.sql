@@ -1,5 +1,7 @@
 -- Create employee table with some coloumn
 
+drop table employee;
+
 create table Employee
 (
 Employee_ID int NOT NULL,
