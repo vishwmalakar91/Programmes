@@ -1,6 +1,8 @@
 -- Create employee table with some coloumn
 
 drop table employee;
+drop table Project;
+commit;
 
 create table Employee
 (
@@ -20,7 +22,7 @@ insert into Employee values
  
  insert into Employee values
  (3511,"Deepak Vemula","deepak@test.com",300),
- (508,"Pranab Pradhan","pranab@test.com",100);
+ (3508,"Pranab Pradhan","pranab@test.com",100);
  
  insert into Employee values
  (100,"Nikhil D","nikhil@test.com",10),
@@ -52,7 +54,7 @@ PRIMARY KEY (Employee_ID)
 
  insert into Project values
 (3508,"Hello","Hello"),
-(509,"Hello","Hello"),
+(3509,"Hello","Hello"),
 (100,"Hello","Hello"),
 (300,"1Peg","1Peg"),
 (10,"Hello 1Peg","1Peg,Hello");
@@ -110,3 +112,18 @@ select distinct a.Employee_ID, a.Employee_Name, a.Employee_Email , b.Employee_Na
 from Employee a, Employee b , Project c
 where a.manager_ID=b.Employee_ID
 and a.Employee_ID not in (select Employee_ID from Project); 
+
+--  inner Join , get Employee name having projects
+select Employee.Employee_ID, Employee_Name,Employee_Email
+from Employee
+inner join Project
+on Employee.Employee_ID=Project.Employee_ID ;
+
+--  inner Join , get Employee name having projects
+select Employee.Employee_ID, Employee_Name,Employee_Email
+from Employee
+left join Project
+on Employee.Employee_ID=Project.Employee_ID ;
+
+
+
