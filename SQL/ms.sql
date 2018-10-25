@@ -12,18 +12,18 @@ PRIMARY KEY (Employee_ID)
 -- inserting single row with some value in employee table
 
 insert into Employee values
- (103509,"Vishwanath Malakar","vmalakar@amdocs.com",100);
+ (3509,"Vishwanath Malakar","vmalakar@test.com",100);
  
  -- inserting multiple value in employee table
  
  insert into Employee values
- (103511,"Deepak Vemula","deepakv@amdocs.com",300),
- (103508,"Pranab Pradhan","pranabp@amdocs.com",100);
+ (3511,"Deepak Vemula","deepak@test.com",300),
+ (508,"Pranab Pradhan","pranab@test.com",100);
  
  insert into Employee values
- (100,"Nikhil D","nikhild@amdocs.com",10),
- (300,"Joseph Jude","jude@amdocs.com",10),
- (10,"Prashant BEniwal","prashantb@amdocs.com",1);
+ (100,"Nikhil D","nikhil@test.com",10),
+ (300,"Joseph Jude","jude@test.com",10),
+ (10,"Prashant BEniwal","prashant@test.com",1);
  
 -- updating some wronge types value in employee table
  
@@ -49,11 +49,11 @@ PRIMARY KEY (Employee_ID)
 -- inserting  rows with some value in project table
 
  insert into Project values
-(103508,"HALO","ATT HALO"),
-(103509,"HALO","ATT HALO"),
-(100,"HALO","ATT HALO"),
-(300,"IPAG","IPAG"),
-(10,"HI","ATT HALO, ATT IPAG");
+(3508,"Hello","Hello"),
+(509,"Hello","Hello"),
+(100,"Hello","Hello"),
+(300,"1Peg","1Peg"),
+(10,"Hello 1Peg","1Peg,Hello");
     
 
 select * from Employee;
