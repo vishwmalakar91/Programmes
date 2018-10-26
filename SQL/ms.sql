@@ -124,6 +124,3 @@ select Employee.Employee_ID, Employee_Name,Employee_Email
 from Employee
 left join Project
 on Employee.Employee_ID=Project.Employee_ID ;
-
-
-
