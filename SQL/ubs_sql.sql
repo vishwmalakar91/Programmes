@@ -1,3 +1,5 @@
+drop table ubs_interview;
+
 create table U_Employee
 (Emp_ID int not null, 
 Emp_Name char (50),
