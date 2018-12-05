@@ -1,4 +1,7 @@
-drop table dept;
+drop table employee;
+drop table project;
+drop table u_employee;
+drop table u_relaion;
 commit;
 
 create table Employee
@@ -21,9 +24,11 @@ values
 
 select * from Employee;
 
-update Employee 
+update Employee
 Set Dept_ID=1
 where Dept_ID="Tech"; 
+
+select * from Employee;
  
 update Employee
 set Dept_ID = 
@@ -34,6 +39,8 @@ when Dept_ID = 'HR' then '3'
 ELSE "Not find"
 END
 where Dept_ID in ('Tech', 'Non-Tech','HR');
+
+select * from Employee;
 
 create table Dept
 ( 
