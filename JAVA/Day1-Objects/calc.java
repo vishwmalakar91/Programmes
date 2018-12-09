@@ -22,10 +22,6 @@ int k=i+j;
 return k;
 }
 
-
-
-
-
 public static void main(String[]args)
 {
 calc c=new calc();
@@ -38,6 +34,5 @@ System.out.println("return m :"+sum);
 sum=sum+100;
 System.out.println("after :"+sum);
 }
-
 
 }

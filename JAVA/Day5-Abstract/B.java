@@ -5,7 +5,7 @@ abstract class A
 	//public void m1();//abstract method
 	//abstract public void m2
 	abstract public void m2();
-	public void m3()
+	public void m3() //non abstarct method
 	{
 		System.out.println("dev plz override this method in child");
 	}

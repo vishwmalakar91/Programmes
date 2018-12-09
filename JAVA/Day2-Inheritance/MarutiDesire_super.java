@@ -6,7 +6,7 @@ class MarutiSwift {
     }
 }
 
-class MarutiDesire extends MarutiSwift {
+class MarutiDesire_super extends MarutiSwift {
     String name = "SwiftDdesire";
 
     void engine() {
@@ -19,17 +19,18 @@ class MarutiDesire extends MarutiSwift {
         this.engine();
         System.out.println("in acc this method");
     }
+    void Name() {
+        System.out.println(this.name);
+        System.out.println(super.name);
+    }
 
     public static void main(String[] args) {
-        MarutiDesire MD = new MarutiDesire();
+        MarutiDesire_super MD = new MarutiDesire_super();
+        String name="main method";
         MD.engine();
         MD.acc();
+        MD.Name();
         System.out.println(MD.name);
+        System.out.println(name);
     }
 }
-
-/*
- * class MarutiDZ extends MarutiDesire,MarutiSwift { public static void
- * main(String[] args) { MarutiDZ d= new MarutiDZ() ; d.engine();
- * System.out.println(d.name); } }
- */

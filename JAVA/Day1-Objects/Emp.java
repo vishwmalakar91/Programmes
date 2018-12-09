@@ -32,9 +32,8 @@ System.out.println("-------------------");
 e3.companyName="Amdocs Global";
 System.out.println(e4.EmpName); 
 System.out.println(e4.EmpId);
+System.out.println(e3.companyName);
 System.out.println(e4.companyName);
 
 }
-
-
 }

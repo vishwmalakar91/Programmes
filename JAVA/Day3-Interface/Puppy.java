@@ -1,7 +1,7 @@
 class Puppy{
 
 int i;
-//constructor doesnt has return type
+//constructor doesn't has return type
 //Constructor can be used to initialise method and variable in the beginning
 //Constructor can be used similar to functions but majorly for initializing the variable or methods
 

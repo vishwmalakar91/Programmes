@@ -1,4 +1,4 @@
-class TestInst
+class static_var
 {
 int i;//instance non static can be acces by reference only
 static int j=50;//non static

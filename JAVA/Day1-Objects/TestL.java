@@ -14,7 +14,7 @@ public static void main(String[]args)
 int age =10;
 TestL test=new TestL();
 test.pupAge();
-System.out.println("puppy age is :"+test.age);
+System.out.println("puppy age is :"+test.age);//guess the value
 System.out.println(age);
 }
 
