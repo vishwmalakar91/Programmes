@@ -7,7 +7,7 @@ Salary int,
 Primary Key (Emp_ID)
 );
 
-insert into Employee_with_salary 
+insert into Employee_with_salary
 values
 (100, "Vishwa","Tech",500),
 (200, "Pranab","Tech",200),

@@ -2,6 +2,7 @@
 
 drop table employee;
 drop table Project;
+drop table dept;
 commit;
 
 create table Employee

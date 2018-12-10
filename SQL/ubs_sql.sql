@@ -33,6 +33,7 @@ select a.Emp_Name ,a.Emp_Id,a.Dept_Id,r.manager_Id
 from u_employee a,u_relaion r
 where r.Emp_Id=a.EMp_ID;
 
+
 select x.Emp_Name ,x.Dept_id ,y.Emp_name as manager_Name
 from(select a.Emp_Name ,a.Emp_Id,a.Dept_Id,r.manager_Id from u_employee a,u_relaion r where r.Emp_Id=a.EMp_ID) x,
 	(select a.Emp_Name ,a.Emp_Id,a.Dept_Id,r.manager_Id from u_employee a,u_relaion r where r.Emp_Id=a.EMp_ID) y
