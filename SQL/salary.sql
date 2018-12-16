@@ -30,6 +30,13 @@ SELECT Emp_name ,Dept_ID, Salary FROM Employee_with_salary order by Salary DESC;
 -- salary in desc order only 4
 SELECT Emp_name ,Dept_ID, Salary FROM Employee_with_salary order by Salary DESC limit 4 ;
 
+
+-- 3rd highest salary # MS Interview Qu
+SELECT Emp_name ,Dept_ID, Salary FROM Employee_with_salary order by Salary DESC limit 2,1 ;
+
+Select Salary in(SELECT Emp_name ,Dept_ID, Salary FROM Employee_with_salary order by Salary DESC limit 4) ;
+
+-- emp with max salary
 SELECT Emp_name ,Dept_ID, MAX(Salary) FROM Employee_with_salary;
 
 drop table Employee_with_salary;
