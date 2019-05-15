@@ -1,0 +1,24 @@
+<html>
+<body>
+
+<button onclick="document.getElementById('demo').innerHTML=Date()">The time is? - from id</button>
+
+<p id="demo"></p>
+
+<br>
+
+<button onclick="this.innerHTML = Date()">The time is? - inline</button>
+
+<br>
+<br>
+<button onclick="displayDate()">The time is? - from function</button>
+
+<script>
+function displayDate()
+{
+window.alert(Date());
+}
+</Script>
+
+</body>
+</html>
