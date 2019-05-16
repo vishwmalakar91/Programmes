@@ -16,3 +16,5 @@ var z1 = 16 + 4 + "Volvo";
 var z2 = "Volvo" + 16 + 4;
 
 console.log(z1,z2);
+
+    
