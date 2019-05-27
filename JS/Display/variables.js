@@ -11,3 +11,5 @@ console.log(y);
 var z = 10;
 z += 5;
 console.log(z);
+
+//If you assign a value to a variable that has not been declared, it will automatically become a GLOBAL variable.
