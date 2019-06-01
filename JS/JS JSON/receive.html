@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Convert a string written in JSON format, into a JavaScript object.</h2>
+
+<p id="demo"></p>
+<p id="name"></p>
+
+<script>
+
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+   if (this.readyState == 4 && this.status == 200) {
+     document.getElementById("demo").innerHTML =  this.responseText;
+     var myObj = JSON.parse(this.responseText);
+     var first_Name=myObj.data.first_name;
+     document.getElementById("name").innerHTML =  "First Name is :"+first_Name;
+    }
+  };
+  xhttp.open("GET", "https://reqres.in/api/users/2", true);
+  xhttp.send();
+}
+
+var myJSON = loadDoc();
+
+</script>
+
+</body>
+</html>
