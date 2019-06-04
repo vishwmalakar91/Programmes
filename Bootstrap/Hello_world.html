@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap 4 Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <!---Bootstrap 4 uses a default font-size of 16px (=1rem), and its line-height is 1.5.
+    The default font-family is "Helvetica Neue", Helvetica, Arial, sans-serif.-->
+
+    <div class="container-fluid">
+        <h1 class="display-2">Hello World</h1>
+
+        <!-- Not defined column size , then auto adjust-->
+        <div class="row">
+            <div class="col" style="background-color: yellowgreen">first</div>
+            <div class="col" style="background-color: red">Second</div>
+            <div class="col" style="background-color: lightblue">Third</div>
+        </div>
+
+        <!--defined column same size-->
+        <div class="row">
+            <div class="col-sm-3" style="background-color: aquamarine">col</div>
+            <div class="col-sm-3" style="background-color: pink">col</div>
+        </div>
+
+        <!--defined column different size-->
+        <div class="row">
+            <div class="col-sm-4" style="background-color: chartreuse">four</div>
+            <div class="col-sm-8" style="background-color:lightcoral">eight</div>
+        </div>
+
+        <div class="row">
+            <blockquote class="blockquote">
+                <mark>This will displayed with yello mark</mark>
+                <blockquote>
+        </div>
+
+        <!-- typo graph-->
+
+        <div class="row">
+            This is HTML code style :
+            <code>div, span</code>
+        </div>
+
+        <div class="row">
+            This is Keyboard style :
+            <kbd>ctrl + p</kbd>
+        </div>
+
+        <!--colors-->
+
+        <div class="row">
+            <p class="text-warning">
+                This is Warning text
+            </p>
+
+            <p class="bg-danger">
+                This is Error with background
+            </p>
+
+            <p class="bg-success">
+                This is success with background
+            </p>
+        </div>
+
+        <!--Table-->
+
+        <div class="row" id="mytable">
+            <table class="table table-striped table-hover">
+                <tr style="background-color:lightgreen">
+                    <th>Sr</th>
+                    <th>Key</th>
+                    <th>Value</th>
+                </tr>
+                <tbody>
+                    <tr>
+                        <td scope="row">1</td>
+                        <td>data 1</td>
+                        <td> data2 </td>
+                    </tr>
+                    <tr>
+                        <td scope="row">2</td>
+                        <td>data2 </td>
+                        <td>data 4</td>
+                    </tr>
+                    <tr class="table-danger"> 
+                        <td scope="row">3</td>
+                        <td>data 6 </td>
+                        <td>data 7</td>
+                    </tr>
+
+                    <tr>
+                        <td scope="row">4</td>
+                        <td>data 8 </td>
+                        <td>data 9</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div> <!-- for container-->
+</body>
+
+</html>
