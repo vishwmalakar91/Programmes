@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap 4 Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <!---Bootstrap 4 uses a default font-size of 16px (=1rem), and its line-height is 1.5.
+    The default font-family is "Helvetica Neue", Helvetica, Arial, sans-serif.-->
+
+    <div class="container-fluid">
+
+        <!--jumbotron class-->
+
+        <div class="jumbotron" style="text-align: center">
+            <h1 class="display-3">Hello Vishwa</h1>
+            <p>Bootstrap is the most popular HTML, CSS...</p>
+        </div>
+
+        <!-- alert msg -->
+        <div class="alert alert-primary">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <strong>Success!</strong> You are welcome successfully, Now close this
+        </div>
+
+        <!--cards-->
+
+
+        <div class="card" style="width:250px">
+            <img class="card-img-top" src="https://www.w3schools.com/bootstrap4/img_avatar1.png" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">Vishwanat Malakar</h4>
+                <p class="card-text">Developer of this Page</p>
+                <a href="#" class="btn btn-primary">See Profile</a>
+            </div>
+        </div>
+
+
+
+        <br><br>
+        <!--buttons-->
+
+
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-danger">Cancel</button>
+
+        <button type="button" class="btn btn-outline-primary">Submit</button>
+        <button type="button" class="btn btn-outline-danger">Cancel</button>
+
+        <br><br>
+        <button type="button" class="btn btn-warning btn-block">Full-Width Button</button>
+
+
+        <!--dropdowns-->
+
+        <div class="dropdown">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                Dropdown button
+            </button>
+            <div class="dropdown-menu">
+                <h5 class="dropdown-header">Dropdown header</h5>
+                <a class="dropdown-item" href="#">Link 1</a>
+                <a class="dropdown-item" href="#">Link 2</a>
+                <a class="dropdown-item" href="#">Link 3</a>
+                <h5 class="dropdown-header">Dropdown header</h5>
+                <a class="dropdown-item" href="#">Another link</a>
+            </div>
+        </div>
+
+
+        <!--badges-->
+        <br><br>
+        <button type="button" class="btn btn-primary">
+            Messages <span class="badge badge-light">4</span>
+        </button>
+
+        <span class="badge badge-success">Success</span>
+        <br><br>
+        <!--progress bar-->
+        <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:60%"></div>
+        </div>
+
+
+        <br><br>
+        <!--spinner-->
+        <div class="spinner-border text-info"></div>
+        <div class="spinner-grow text-danger"></div>
+
+
+        <button class="btn btn-success">
+            <span class="spinner-border spinner-border-sm"></span>
+            Loading..
+        </button>
+        <br><br>
+        <!--pagination-->
+
+        <ul class="pagination">
+            <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item active"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+
+        <!--bread crubm-->
+
+        <h2>Breadcrumbs</h2>
+        <p>The .breadcrumb class indicates the current page's location within a navigational hierarchy:</p>
+        <ul class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Photos</a></li>
+            <li class="breadcrumb-item"><a href="#">Summer 2017</a></li>
+            <li class="breadcrumb-item"><a href="#">Italy</a></li>
+            <li class="breadcrumb-item active">Rome</li>
+        </ul>
+    </div>
+    <!--list group-->
+
+
+    <ul class="list-group" style="width: 50%">
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            Inbox
+            <span class="badge badge-primary badge-pill">12</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            Ads
+            <span class="badge badge-primary badge-pill">50</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            Junk
+            <span class="badge badge-primary badge-pill">99</span>
+        </li>
+    </ul>
+
+
+
+
+
+    </div> <!-- for container-->
+
+    <footer>footer</footer>
+</body>
+
+</html>
