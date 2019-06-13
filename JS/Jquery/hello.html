@@ -1,0 +1,36 @@
+<!--jQuery is a lightweight, "write less, do more", JavaScript library.
+Basic syntax is: $(selector).action()-->
+<!DOCTYPE html>
+<html>
+    <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script>
+    $(document).ready(function()
+    {
+      $("#hide").click(function(){
+        $("p").hide();
+      });
+      $("#show").click(function(){
+        $("p").show();
+      });
+
+      $("#toggle").click(
+          function()
+          {
+              $("p").toggle();
+          }
+      )
+
+    }
+    );
+    </script>
+    </head>
+    <body>
+    
+    <p>Hello World !.</p>
+    
+    <button id="hide">Hide</button>
+    <button id="show">Show</button>
+    <button id="toggle">Hide/Show</button>
+    </body>
+    </html>
