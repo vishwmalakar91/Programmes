@@ -5,7 +5,7 @@ public static void main(String args[]){
 
 int numOfPlayer = 0;
 
-String sport = args[0];
+String sport = "volleyball";
 
 switch(sport){
 case "tennis":

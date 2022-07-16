@@ -12,20 +12,20 @@ public class ExcepTest2
 		
 		catch (ArithmeticException e)
 		{
-		System.out.println("exception thrown"+e);
+		System.out.println("exception thrown - "+e);
 		e.printStackTrace();
 		System.out.println("check data");
 		}
 		catch (ArrayIndexOutOfBoundsException e)
 		{
-		System.out.println("exception thrown"+e);
+		System.out.println("exception thrown - "+e);
 		e.printStackTrace();
 		System.out.println("check array size");
 		}
 		
 		catch (NullPointerException e)
 		{
-		System.out.println("exception thrown"+e);
+		System.out.println("exception thrown - "+e);
 		e.printStackTrace();
 		System.out.println("check assigned value");
 		}

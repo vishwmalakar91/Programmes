@@ -10,6 +10,11 @@ interface Bank {
 
 	public void debit(int wAmt);
 
+	// public void test(int wAmt)
+	// {
+	// 	System.out.println("trying tocreated non abstract method");
+	// };
+
 }
 
 // Interface define
@@ -45,6 +50,10 @@ class HDFCBank extends WorldBank implements Bank, RBI {
 	public void interest(int iAmt) {
 		currentBal = currentBal + iAmt;
 		System.out.println(currentBal);
+	}
+
+	public void checkBal(int iAmt) {
+		System.out.println(iAmt);
 	}
 
 	// Main class

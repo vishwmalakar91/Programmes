@@ -3,7 +3,7 @@ import Module1.*;
 //private -same class
 //default-same package ,outside package not allowed
 //public -anywhere
-//protacted same package + child class in other diff package
+//protected same package + child class in other diff package
 class D extends A{
 	
 	public static void main(String[]args)

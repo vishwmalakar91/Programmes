@@ -13,7 +13,7 @@ class TestLoop1
 	int countOnce = 25;
 	while(countOnce<25){
 		countOnce = countOnce + 5;
-			System.out.println("Counter value is :"+countOnce);
+			System.out.println(" check this Counter value  :"+countOnce);
 }
 
 	String days[] = { "Mon", "Tue", "Wed", "Thr", "Fri", "Sat", "Sun"};

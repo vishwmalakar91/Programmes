@@ -13,7 +13,7 @@ String name="iPhone7";
 
 void display()
 {
-//super.display();
+super.display();
 System.out.println("dispaly iphone 7");
 }
 

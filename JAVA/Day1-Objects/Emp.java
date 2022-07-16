@@ -20,6 +20,7 @@ e1.EmpName="Salo";
 e1.EmpId=1002;
 e1.EmpName="Saloni";
 e1.EmpId=1003;
+e1.companyName="E1 New Amdocs";
 
 System.out.println(e1.EmpName); 
 System.out.println(e1.EmpId);
@@ -34,6 +35,7 @@ System.out.println(e4.EmpName);
 System.out.println(e4.EmpId);
 System.out.println(e3.companyName);
 System.out.println(e4.companyName);
+System.out.println(e1.companyName);
 
 }
 }

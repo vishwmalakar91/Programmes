@@ -16,7 +16,7 @@ public class BankDemo
 		catch (InsufficientFundsException e)
 		{
 		System.out.println("please check your account :"+e.getAmount());
-		e.printStackTrace();		
+		//e.printStackTrace();		
 		}
 	}
 }

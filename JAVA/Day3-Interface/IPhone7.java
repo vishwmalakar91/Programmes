@@ -1,5 +1,4 @@
 
-
 //Defining interface
 
 interface IPhone{

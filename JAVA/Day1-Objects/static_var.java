@@ -6,8 +6,8 @@ static int j=50;//non static
 
 public static void main(String[]args)
 {
-TestInst test1=new TestInst();
-TestInst test2=new TestInst();
+    static_var test1=new static_var();
+    static_var test2=new static_var();
 System.out.println(test1.i);
 System.out.println(test2.i);
 test1.i=10;
@@ -23,7 +23,7 @@ System.out.println(test1.j);
 System.out.println(test2.j); //ref.var
 
 System.out.println(j);//direct
-System.out.println(TestInst.j); //clas name and var name
+System.out.println(static_var.j); //clas name and var name
 
 
 }
