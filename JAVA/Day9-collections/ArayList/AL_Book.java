@@ -25,7 +25,7 @@ public static void main(String[] args) {
     list.add(b3);  
     //Traversing list  
     for(Book b:list){  
-        System.out.println(b.id+" "+b.name+" "+b.author+" "+b.publisher+" "+b.quantity);  
+        System.out.println(b.id+" : "+b.name+" ,"+b.author+" ,"+b.publisher+", "+b.quantity);  
     }  
 }  
 }  
