@@ -59,6 +59,7 @@ class HDFCBank extends WorldBank implements Bank, RBI {
 	// Main class
 	public static void main(String args[]) {
 		HDFCBank d = new HDFCBank();
+		//HDFCBank b = new Bank();
 		// Bank b = new Bank(); //Cannot create an object of any interface
 		// Declare method
 		d.debit(200);
