@@ -3,6 +3,8 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/1wcp41xf6q49988m/branch/master?svg=true)](https://ci.appveyor.com/project/ginger/ginger/branch/master) [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/Ginger-Automation/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
+This Reposiroty is a collection of programs and steps to run them in command line.
+
 C using command line
 ----------------------------------
 1. install > MinGW libraries , https://sourceforge.net/projects/mingw/files/latest/download?source=files
