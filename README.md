@@ -4,6 +4,7 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 This Reposiroty is a collection of programs and steps to run them in command line.
+Plan is to create soem scripts so that use can download everything required by just one click or by one command.
 
 C using command line
 ----------------------------------
