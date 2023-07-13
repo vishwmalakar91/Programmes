@@ -1,4 +1,4 @@
-public class NeeIndex {
+public class ArrayIndex {
     public static void main(String[] args) {
 
 //String declaration using new keyword
