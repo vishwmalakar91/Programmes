@@ -1,4 +1,4 @@
-public class BankDemo
+public class BankDemoNew
 {
 	public static void main(String[] args)
 	{
